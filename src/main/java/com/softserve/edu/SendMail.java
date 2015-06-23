@@ -11,14 +11,11 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 import org.testng.log4testng.Logger;
-//import org.testng.log4testng.Logger;
-//import org.apache.log4j.Logger;
 
 public class SendMail {
 
 	
-	private final static Logger helperLogger = Logger.getLogger(Helper.class);
-//	 final static Logger logger = Logger.getLogger(SendMail.class);
+	private final static Logger helperLogger = Logger.getLogger(SendMail.class);
 
     public static void main(String[] args) {
     	
